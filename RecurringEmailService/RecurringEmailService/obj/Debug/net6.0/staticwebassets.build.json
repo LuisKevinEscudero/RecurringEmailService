@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xAAx1A/KugRVW7xg6TbL7OH1s8jjTNSzc8ywyPz1D7g=",
+  "Source": "RecurringEmailService",
+  "BasePath": "_content/RecurringEmailService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

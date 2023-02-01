@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luiskevin.escudero\\Desktop\\mandar correos\\RecurringEmailService\\RecurringEmailService\\RecurringEmailService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luiskevin.escudero\\Desktop\\mandar correos\\RecurringEmailService\\RecurringEmailService\\RecurringEmailService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luiskevin.escudero\\Desktop\\mandar correos\\RecurringEmailService\\RecurringEmailService\\RecurringEmailService.csproj",
+        "projectName": "RecurringEmailService",
+        "projectPath": "C:\\Users\\luiskevin.escudero\\Desktop\\mandar correos\\RecurringEmailService\\RecurringEmailService\\RecurringEmailService.csproj",
+        "packagesPath": "C:\\Users\\luiskevin.escudero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiskevin.escudero\\Desktop\\mandar correos\\RecurringEmailService\\RecurringEmailService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luiskevin.escudero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.33, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.33, )"
+            },
+            "Hangfire.InMemory": {
+              "target": "Package",
+              "version": "[0.3.5, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "SendGrid.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
