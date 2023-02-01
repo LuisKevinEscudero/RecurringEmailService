@@ -5,7 +5,7 @@ using SendGrid.Helpers.Mail;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddSendGrid(options => options.ApiKey = "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");
+builder.Services.AddSendGrid(options => options.ApiKey = "[API_KEY]");
 
 builder.Services.AddHangfire(configuration =>
     configuration.UseSimpleAssemblyNameTypeSerializer()
@@ -37,11 +37,11 @@ public class EmailJob
     {
         var msg = new SendGridMessage()
         {
-            From = new EmailAddress("luiskevin.escudero@bosonit.com", "kevin"),
+            From = new EmailAddress("[SENDER_EMAIL]", "[SENDER_NAME]"),
             Subject = "A Recurring Email using Twilio SendGrid",
             PlainTextContent = "Hello and welcome to the world of periodic emails with Hangfire and SendGrid. "
         };
-        msg.AddTo(new EmailAddress("luiskevin.escudero@bosonit.com", "prueba"));
+        msg.AddTo(new EmailAddress("[RECIPIENT_EMAIL]", "[RECIPIENT_NAME]"));
 
         var response = await sendGridClient.SendEmailAsync(msg);
 
